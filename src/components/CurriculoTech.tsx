@@ -12,13 +12,6 @@ function CurriculoTech() {
     {/* Barra azul a esquerda */}
     <div className="bg-slate-900 gap-8 flex flex-col items-center md:items-start py-10 px-6 w-full md:h-full text-slate-300 relative overflow-hidden">
         
-        {/* Background Decorativo Tech */}
-        <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
-            <div className="absolute top-10 left-10 w-32 h-32 border-2 border-white rounded-full"></div>
-            <div className="absolute bottom-20 right-10 w-20 h-20 border border-white rounded-full"></div>
-            <div className="absolute top-1/2 left-1/2 w-full h-[1px] bg-white transform -translate-x-1/2"></div>
-        </div>
-
     {/* Foto de Perfil */}
     <div className="flex flex-col items-center z-10">
       <div className="relative">
