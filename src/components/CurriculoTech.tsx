@@ -30,8 +30,8 @@ function CurriculoTech() {
     </div>
 
       {/* Sobre Mim     */}
-    <div className='flex flex-col gap-3 items-start text-left z-10 w-full'>
-      <h1 className='font-bold text-xl text-white flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-start'>
+    <div className='flex flex-col gap-3 items-center md:items-start text-center md:text-left z-10 w-full'>
+      <h1 className='font-bold text-xl text-white flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center md:justify-start'>
         <Terminal className="w-5 h-5 text-cyan-400" />
         SOBRE MIM
       </h1>
@@ -44,11 +44,12 @@ function CurriculoTech() {
     
     {/* Contatos */}
 
-    <div className=' flex flex-col gap-4 text-white items-start w-full z-10'>
-      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-start'>
+    <div className=' flex flex-col gap-4 text-white items-center md:items-start w-full z-10'>
+      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center md:justify-start'>
         CONTATOS
       </h1>
-
+      
+      <div className="flex flex-col gap-4 items-start w-fit">
         {/* Telefone */}
       <a href="tel:+5531981142120" className='flex gap-3 text-sm items-center hover:text-cyan-400 transition-colors group'> 
         <span className="bg-slate-800 p-2 rounded-lg group-hover:bg-slate-700 transition-colors">
@@ -71,18 +72,18 @@ function CurriculoTech() {
         </span>
       Rua Paulo Kruger Mourão, 230 - Bloco 05 Ap 303
       </a>
+      </div>
 
     </div>
-
-   
+    
     {/* Habilidades */}
 
-    <div className=' flex flex-col gap-4 text-white items-start text-left w-full z-10'>
-      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-start'>
+    <div className=' flex flex-col gap-4 text-white items-center md:items-start text-center md:text-left w-full z-10'>
+      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center md:justify-start'>
         HABILIDADES
       </h1>
 
-      <div className="flex flex-wrap gap-2 justify-start">
+      <div className="flex flex-wrap gap-2 justify-center md:justify-start">
           <span className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-full border border-slate-700 font-mono">MikroTik</span>
           <span className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-full border border-slate-700 font-mono">Routing</span>
           <span className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-full border border-slate-700 font-mono">Firewall</span>
