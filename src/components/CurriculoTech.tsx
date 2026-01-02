@@ -30,8 +30,8 @@ function CurriculoTech() {
     </div>
 
       {/* Sobre Mim     */}
-    <div className='flex flex-col gap-3 items-center md:items-start text-center md:text-left z-10 w-full'>
-      <h1 className='font-bold text-xl text-white flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center md:justify-start'>
+    <div className='flex flex-col gap-3 items-center text-center z-10 w-full'>
+      <h1 className='font-bold text-xl text-white flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center'>
         <Terminal className="w-5 h-5 text-cyan-400" />
         SOBRE MIM
       </h1>
@@ -58,7 +58,7 @@ function CurriculoTech() {
       (31) 98114-2120
       </a>
           {/* E-Mail */}
-      <a href="mailto:samuelginformatica@gmail.com" className='flex gap-3 text-sm items-center hover:text-cyan-400 transition-colors group break-all'> 
+      <a href="mailto:samuelginformatica@gmail.com" className='flex gap-3 text-sm items-center hover:text-cyan-400 transition-colors group break-all justify-center'> 
         <span className="bg-slate-800 p-2 rounded-lg group-hover:bg-slate-700 transition-colors shrink-0">
             <Mail className='w-4 text-cyan-400'/>
         </span>
