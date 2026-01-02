@@ -65,7 +65,7 @@ function App() {
         <PinIcon
         className='w-4 h-4 shrink-0 mt-0.5'
         />        
-      Rua paulo Kruger Mourão, 230 - Bloco 05 Ap 303
+      Rua Paulo Kruger Mourão, 230 - Bloco 05 Ap 303
       </a>
 
     </div>
@@ -75,11 +75,11 @@ function App() {
 
     <div className=' flex flex-col gap-2 text-white items-center md:items-start text-center md:text-left'>
       <h1 className='font-bold text-2xl   '>
-        Habilidades
+        HABILIDADES
       </h1>
 
       <p className='font-light '>
-      Mikrotik (Routing, Firewall, QoS)
+      MikroTik (Routing, Firewall, QoS)
       </p>
 
        <p className='font-light '>
