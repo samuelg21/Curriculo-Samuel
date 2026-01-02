@@ -44,8 +44,8 @@ function CurriculoTech() {
     
     {/* Contatos */}
 
-    <div className=' flex flex-col gap-4 text-white items-center md:items-start w-full z-10'>
-      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center md:justify-start'>
+    <div className=' flex flex-col gap-4 text-white items-center w-full z-10'>
+      <h1 className='font-bold text-xl flex items-center gap-2 border-b-2 border-cyan-500 pb-1 w-full justify-center'>
         CONTATOS
       </h1>
       
