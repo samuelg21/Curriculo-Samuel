@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-blue: #002C5F;
+  --color-primary-blue: #002C5F; /* Classic Blue */
+  --color-tech-accent: #06b6d4; /* Cyan 500 */
+  --color-tech-gray: #e2e8f0; /* Slate 200 */
+}
+
+body {
+    background-color: #f8fafc;
+    font-family: 'Inter', system-ui, sans-serif;
 }
 
 @media print {
