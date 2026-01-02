@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #002C5F;
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: auto;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Força o layout de grid (Desktop) na impressão */
+  .md\:grid {
+    display: grid !important;
+  }
+  
+  .md\:grid-cols-\[30\%_70\%\] {
+    grid-template-columns: 30% 70% !important;
+  }
+
+  /* Garante altura total */
+  .min-h-screen {
+    min-height: 100vh !important;
+  }
+  
+  .md\:h-full {
+    height: 100% !important;
+  }
+
+  /* Esconde elementos exclusivos de mobile */
+  .md\:hidden {
+    display: none !important;
+  }
+
+  /* Mostra elementos exclusivos de desktop */
+  .hidden.md\:block {
+    display: block !important;
+  }
+  
+  /* Ajustes de alinhamento */
+  .md\:items-start {
+    align-items: flex-start !important;
+  }
+  
+  .md\:text-left {
+    text-align: left !important;
+  }
+
+  .md\:p-10 {
+      padding: 2.5rem !important;
+  }
+  
+  .md\:ml-10 {
+      margin-left: 2.5rem !important;
+  }
+}
